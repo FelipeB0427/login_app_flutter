@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_flutter_app/src/utils/theme/theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,10 +11,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(brightness: Brightness.light),
-      darkTheme: ThemeData(brightness: Brightness.dark),
-      themeMode: ThemeMode.dark,
-      home: AppHome(),
+      theme: TAppTheme.lightTheme,
+      darkTheme: TAppTheme.darkTheme,
+      themeMode: ThemeMode.system,
+      home: const AppHome(),
     );
   }
 }
@@ -36,7 +37,7 @@ class AppHome extends StatelessWidget {
             ElevatedButton(onPressed: () {}, child: const Text("Elevated Button"),),
             OutlinedButton(onPressed: () {}, child: const Text("Outlined Button"),),
             const Padding(padding: EdgeInsets.all(20.0),
-              child: Image(image: AssetImage("assets/iamges/books.png")),
+              child: Image(image: AssetImage("assets/images/books.png")),
             )
           ],
         ),
