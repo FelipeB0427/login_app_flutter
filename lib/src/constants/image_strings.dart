@@ -1,2 +1,5 @@
-const String tSplashTopIcon = "assets/images/splash-top-icon.png";
-const String tSplashImage = "assets/images/splash-screen-image.png";
+// -- OnBoarding Screen Images
+const String tOnboardingImage1 = "assets/images/on_boarding/image-1.png";
+const String tOnboardingImage2 = "assets/images/on_boarding/image-2.png";
+const String tOnboardingImage3 = "assets/images/on_boarding/image-3.png";
+
