@@ -1,3 +1,7 @@
+// -- General Text
+const String tLogin = "Login";
+const String tSignUp = "Signup";
+
 // -- OnBoarding Text
 const String tOnboardingTitle1 = "Build Awesome Apps";
 const String tOnboardingTitle2 = "Learn from Youtube";
@@ -10,3 +14,7 @@ const String tOnboardingSubTitle3 = "Save time by just aopy pasting complete app
 const String tOnboardingCounter1 = "1/3";
 const String tOnboardingCounter2 = "2/3";
 const String tOnboardingCounter3 = "3/3";
+
+// -- Welcome Text
+const String tWelcomeTitle = "Build Awesome Apps";
+const String tWelcomeSubTitle = "Let's put your creativity on the development highway, craft apps.";
