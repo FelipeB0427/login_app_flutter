@@ -9,7 +9,7 @@ class TElevatedButtonTheme {
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: OutlinedButton.styleFrom(
       elevation: 0.0,
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
       foregroundColor: tWhiteColor,
       backgroundColor: tSecondaryColor,
       side: const BorderSide(color: tSecondaryColor),
@@ -21,7 +21,7 @@ class TElevatedButtonTheme {
   static final darkElevatedButtonTheme = ElevatedButtonThemeData(
     style: OutlinedButton.styleFrom(
       elevation: 0.0,
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
       foregroundColor: tSecondaryColor,
       backgroundColor: tWhiteColor,
       side: const BorderSide(color: tWhiteColor),
